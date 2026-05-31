@@ -42,7 +42,7 @@ const events: EventItem[] = [
     n: "01",
     name: "Legacy of Ignis",
     desc: "The ultimate Best Manager challenge with five rounds and one legacy.",
-     img: shadowSeerImg,
+    img: shadowSeerImg,
     full:
       "To beat the best, you must become the best. In the BEST MANAGER event, every round, including Marketing Mayhem, Brand Battle, Red Alert, Rapid Reaction, and Press Storm, will test your limits, push your thinking, and challenge your leadership. There's no room for hesitation, no space for doubt. Sharp strategy, bold decisions, and unshakable confidence. This is where ordinary ends and excellence begins. Step in, rise to the challenge, and prove you have what it takes. Because in the end, only those who dare to ignite will leave behind a true Legacy of Ignis.",
     rules: [
@@ -55,6 +55,7 @@ const events: EventItem[] = [
     n: "02",
     name: "Shadow Seer",
     desc: "A strategic talent management challenge driven by instinct and judgement.",
+    img: "/shadowseer.jpeg",
     full:
       "In a world full of talent, only a few can recognize true potential early. Shadow Seer is a strategic event that simulates real-world talent management. This isn't just about watching from the sidelines; it's about becoming a master strategist who can spot a diamond in the rough before anyone else. Step into the shoes of an elite Talent Manager, the strategist behind the success of the world's biggest companies, sports teams, and startups. If you trust your instincts and think strategically, this is your stage. Because in the end, it's not luck. It is your judgement that defines your win.",
     rules: [
