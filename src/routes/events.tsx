@@ -21,7 +21,7 @@ export const Route = createFileRoute("/events")({
       { property: "og:title", content: "Events — VALOR·IGNIS" },
       {
         property: "og:description",
-        content: "Seven curated events: Mock Stock, Shadow Seer, Light of Film, Law & Order and more.",
+        content: "Seven curated events: Capital Chaos, Shadow Seer, Light of Film, Law & Order and more.",
       },
     ],
   }),
@@ -41,7 +41,7 @@ const events: EventItem[] = [
    {
     n: "01",
     name: "Legacy of Ignis",
-    desc: "The ultimate Best Manager challenge — five rounds, one legacy.",
+    desc: "The ultimate Best Manager challenge - five rounds, one legacy.",
      img: shadowSeerImg,
     full:
       "To beat the best, you must become the best. In the BEST MANAGER event, every round — Marketing Mayhem, Brand Battle, Red Alert, Rapid Reaction, and Press Storm — will test your limits, push your thinking, and challenge your leadership. There's no room for hesitation, no space for doubt. Sharp strategy, bold decisions, and unshakable confidence. This is where ordinary ends and excellence begins. Step in, rise to the challenge, and prove you have what it takes. Because in the end, only those who dare to ignite will leave behind a true Legacy of Ignis.",
@@ -153,7 +153,7 @@ function EventsPage() {
           <RevealText delay={0.15} className="block italic font-normal">Events.</RevealText>
         </h1>
         <p className="mt-10 max-w-xl text-base text-charcoal/75 md:text-lg">
-          Seven curated experiences — each a different stage for ambition, instinct and craft. Pick
+          Seven curated experiences each a different stage for ambition, instinct and craft. Pick
           the one that fits the kind of leader you intend to become.
         </p>
       </section>
@@ -292,7 +292,7 @@ function EventModal({ event, onClose }: { event: EventItem; onClose: () => void 
           </div>
 
           <a
-            href="https://www.amazon.com"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSclp_X29sbpZC420kW4p21ylyYkiFlXmxNXqekD9q_PsZbFxg/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative mt-10 inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-gold px-8 py-4 text-sm font-semibold uppercase tracking-[0.3em] text-background transition-transform duration-300 hover:scale-[1.01] md:w-auto"
