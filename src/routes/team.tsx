@@ -35,7 +35,7 @@ const eventHeads: Member[] = [
   { name: "Ishieta Makham", role: "Illusion of Influence · HR / PR", img: "/audio/ishieta.avif" },
   { name: "Tejal Devraj", role: "Shadow Seer · Talent Manager", img: "/audio/tejal.avif" },
   { name: "Sandeep HA", role: "Law & Order · Law Event", img: "/audio/sandeep.avif" },
-  { name: "Vineeth Shreekanth", role: "Law & Order · Law Event", img: "/audio/vineet.avif" },
+  { name: "Vineet Srikanth", role: "Law & Order · Law Event", img: "/audio/vineet.avif" },
   { name: "Aarnav Raju", role: "Law & Order · Law Event", img: "/audio/aarnav.avif" },
   { name: "Rishith Reddy", role: "Capital Chaos · Mock Stock", img: rishithImg },
   { name: "Lakshya Tulsan", role: "Capital Chaos · Mock Stock", img: "/audio/lakshya.avif" },
@@ -50,7 +50,7 @@ const organizing: Member[] = [
   { name: "Yuthi Nandakumar", role: "Organizing Committee", img: "/audio/yuthi.avif" },
   { name: "Kushi Bharadwaj", role: "Organizing Committee", img: "/audio/kushi.avif" },
   { name: "Thrupthi R", role: "Organizing Committee", img: "/audio/thrupthi.avif" },
-  { name: "Vineeth Shreekanth", role: "Organizing Committee", img: "/audio/vineet.avif" },
+  { name: "Vineet Srikanth", role: "Organizing Committee", img: "/audio/vineet.avif" },
 ];
 
 
