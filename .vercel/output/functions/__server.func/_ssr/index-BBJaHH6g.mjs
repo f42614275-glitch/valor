@@ -58,8 +58,8 @@ function Hero() {
           duration: 1,
           delay: 0.45
         }, className: "md:col-span-4 md:col-start-9 text-xs uppercase tracking-[0.3em] text-charcoal/60", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "block text-charcoal/40", children: "Edition" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "mt-1 block", children: "MMXXVI" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "block text-charcoal/40", children: "" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "mt-1 block", children: "" })
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "mt-12 font-display text-[clamp(4rem,16vw,20rem)] leading-[0.82] tracking-[-0.045em]", children: [

@@ -5,7 +5,7 @@ import { P as Phone, M as Mail } from "../_libs/lucide-react.mjs";
 import "../_libs/motion-dom.mjs";
 import "../_libs/motion-utils.mjs";
 const phones = [{
-  name: "Vineeth Shreekanth",
+  name: "Vineet Srikanth",
   number: "+91 77950 38400",
   raw: "+917795038400"
 }, {

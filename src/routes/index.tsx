@@ -57,13 +57,13 @@ function Hero() {
             <img
               src={nhvpsLogo}
               alt="National Hill View Public School"
-              className="h-14 w-14 rounded-full bg-white object-contain p-1 md:h-16 md:w-16"
+              className="h-20 w-20 rounded-full bg-white object-contain p-1 md:h-24 md:w-24"
             />
             <span className="h-px w-8 bg-gold/60" />
             <img
               src={valorLogo}
               alt="Valor Ignis"
-              className="h-16 w-16 rounded-full object-cover md:h-20 md:w-20 ring-1 ring-gold/40"
+              className="h-24 w-24 rounded-full object-cover md:h-28 md:w-28 ring-1 ring-gold/40"
               style={{ objectPosition: "center", transform: "scale(1.08)" }}
             />
           </motion.div>
@@ -74,8 +74,8 @@ function Hero() {
             transition={{ duration: 1, delay: 0.45 }}
             className="md:col-span-4 md:col-start-9 text-xs uppercase tracking-[0.3em] text-charcoal/60"
           >
-            <span className="block text-charcoal/40">Edition</span>
-            <span className="mt-1 block">MMXXVI</span>
+            <span className="block text-charcoal/40"></span>
+            <span className="mt-1 block"></span>
           </motion.div>
         </div>
 

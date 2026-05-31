@@ -38,7 +38,7 @@ const eventHeads = [{
   role: "Law & Order · Law Event",
   img: "/audio/sandeep.avif"
 }, {
-  name: "Vineeth Shreekanth",
+  name: "Vineet Srikanth",
   role: "Law & Order · Law Event",
   img: "/audio/vineet.avif"
 }, {
@@ -87,7 +87,7 @@ const organizing = [{
   role: "Organizing Committee",
   img: "/audio/thrupthi.avif"
 }, {
-  name: "Vineeth Shreekanth",
+  name: "Vineet Srikanth",
   role: "Organizing Committee",
   img: "/audio/vineet.avif"
 }];
