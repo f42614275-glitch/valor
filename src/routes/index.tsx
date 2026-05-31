@@ -33,8 +33,34 @@ function Home() {
       <Marquee />
       <Manifesto />
       <Promo />
+      <RegistrationCTA />
       <Footer />
     </div>
+  );
+}
+
+function RegistrationCTA() {
+  return (
+    <section className="container-editorial pb-32">
+      <div className="rounded-[2rem] border border-gold/20 bg-transparent p-10 md:p-14">
+        <div className="flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
+          <div className="space-y-4">
+            <p className="text-xs uppercase tracking-[0.35em] text-gold">Register Your Team</p>
+            <h2 className="font-display text-4xl leading-tight tracking-tight text-charcoal md:text-5xl">
+              Secure your place at VALOR·IGNIS.
+            </h2>
+          </div>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSclp_X29sbpZC420kW4p21ylyYkiFlXmxNXqekD9q_PsZbFxg/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex whitespace-nowrap items-center justify-center rounded-full bg-gold px-8 py-4 text-sm font-semibold uppercase tracking-[0.3em] text-background transition duration-300 hover:scale-[1.02] hover:shadow-[0_24px_60px_-24px_oklch(0.55_0.22_38/0.6)]"
+          >
+            <span className="relative">Register Now →</span>
+          </a>
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -101,7 +127,7 @@ function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
-            className="md:col-span-3 md:col-start-10 flex flex-col gap-1 text-xs uppercase tracking-[0.25em] text-charcoal/60"
+            className="md:col-span-3 md:col-start-10 flex flex-col gap-4 text-xs uppercase tracking-[0.25em] text-charcoal/60"
           >
             <span className="text-charcoal/40">Two Days · Seven Events</span>
             <span className="font-display text-2xl normal-case tracking-tight text-charcoal">
