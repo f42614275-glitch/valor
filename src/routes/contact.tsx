@@ -7,13 +7,13 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — VALOR·IGNIS" },
+      { title: "Contact | VALOR·IGNIS" },
       {
         name: "description",
         content:
-          "Get in touch with the VALOR·IGNIS team — reach our organizing committee and social media manager.",
+          "Get in touch with the VALOR·IGNIS team. Reach our organizing committee and social media manager.",
       },
-      { property: "og:title", content: "Contact — VALOR·IGNIS" },
+      { property: "og:title", content: "Contact | VALOR·IGNIS" },
       {
         property: "og:description",
         content: "Reach the VALOR·IGNIS organizing committee and social media team.",
@@ -48,7 +48,7 @@ function ContactPage() {
           <RevealText delay={0.15} className="block italic font-normal">hello.</RevealText>
         </h1>
         <p className="mt-10 max-w-xl text-base text-charcoal/75 md:text-lg">
-          Questions, partnerships, or registrations — our organizing committee are a call or message away.
+          Questions, partnerships, or registrations. Our organizing committee are a call or message away.
         </p>
       </section>
 

@@ -8,13 +8,13 @@ import rishithImg from "@/assets/rishith.jpeg";
 export const Route = createFileRoute("/team")({
   head: () => ({
     meta: [
-      { title: "Team — VALOR·IGNIS" },
+      { title: "Team | VALOR·IGNIS" },
       {
         name: "description",
         content:
-          "Meet the team behind VALOR·IGNIS — event heads and the organizing committee turning ideas into experiences.",
+          "Meet the team behind VALOR·IGNIS. Event heads and the organizing committee turn ideas into experiences.",
       },
-      { property: "og:title", content: "Meet the Team — VALOR·IGNIS" },
+      { property: "og:title", content: "Meet the Team | VALOR·IGNIS" },
       {
         property: "og:description",
         content: "The collective of students behind the VALOR·IGNIS fest.",
@@ -70,7 +70,7 @@ function TeamPage() {
             </h1>
           </div>
           <p className="md:col-span-4 md:col-start-9 max-w-md text-base text-charcoal/75 md:text-lg text-pretty">
-            A collective of passionate minds driven by creativity, ambition, and energy — working
+            A collective of passionate minds driven by creativity, ambition, and energy working
             behind the scenes to turn ideas into experiences and make every moment of Ignis
             unforgettable.
           </p>
@@ -82,7 +82,7 @@ function TeamPage() {
         chapter="01"
         kicker="Event Heads"
         title={<>Architects of <span className="italic font-normal">each act.</span></>}
-        caption="Seven events, seventeen leads — each one shaping a different language of leadership."
+        caption="Seven events, seventeen leads each one shaping a different language of leadership."
       >
         <div className="mt-20 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
           {eventHeads.map((m, i) => (

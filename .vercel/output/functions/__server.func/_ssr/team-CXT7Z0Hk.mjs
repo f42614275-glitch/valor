@@ -101,12 +101,12 @@ function TeamPage() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(RevealText, { delay: 0.15, className: "block italic font-normal", children: "Team." })
         ] })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "md:col-span-4 md:col-start-9 max-w-md text-base text-charcoal/75 md:text-lg text-pretty", children: "A collective of passionate minds driven by creativity, ambition, and energy — working behind the scenes to turn ideas into experiences and make every moment of Ignis unforgettable." })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "md:col-span-4 md:col-start-9 max-w-md text-base text-charcoal/75 md:text-lg text-pretty", children: "A collective of passionate minds driven by creativity, ambition, and energy working behind the scenes to turn ideas into experiences and make every moment of Ignis unforgettable." })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Section, { chapter: "01", kicker: "Event Heads", title: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
       "Architects of ",
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic font-normal", children: "each act." })
-    ] }), caption: "Seven events, seventeen leads — each one shaping a different language of leadership.", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-20 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:grid-cols-3", children: eventHeads.map((m, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(MemberCard, { member: m, index: i, variant: "head" }, m.name)) }) }),
+    ] }), caption: "Seven events, seventeen leads each one shaping a different language of leadership.", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-20 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:grid-cols-3", children: eventHeads.map((m, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(MemberCard, { member: m, index: i, variant: "head" }, m.name)) }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Divider, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Section, { chapter: "02", kicker: "Organizing Committee", title: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
       "The hands behind ",

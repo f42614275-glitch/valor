@@ -10,7 +10,7 @@ import nhvpsLogo from "@/assets/nhvps.jpeg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "VALOR·IGNIS — An interschool business & leadership fest" },
+      { title: "VALOR·IGNIS | An interschool business & leadership fest" },
       {
         name: "description",
         content:
@@ -93,7 +93,7 @@ function Hero() {
             transition={{ duration: 1, delay: 0.9 }}
             className="md:col-span-5 max-w-md text-base text-charcoal/75 md:text-lg text-pretty"
           >
-            An interschool business and leadership fest — a stage for strategy, instinct,
+            An interschool business and leadership fest, a stage for strategy, instinct,
             and the quiet fire of ambition.
           </motion.p>
 
@@ -145,7 +145,7 @@ function Manifesto() {
     <section className="container-editorial py-32 md:py-48">
       <div className="grid grid-cols-1 gap-12 md:grid-cols-12 md:gap-16">
         <div className="md:col-span-4">
-          <span className="text-xs uppercase tracking-[0.3em] text-gold">01 — Ignis</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-gold">01 Ignis</span>
           <h2 className="mt-6 font-display text-5xl leading-[1.02] md:text-6xl">
             <span className="text-gold">What will you</span> <br />
             <span className="italic font-normal">ignite?</span>
@@ -153,14 +153,14 @@ function Manifesto() {
         </div>
         <div className="md:col-span-7 md:col-start-6 space-y-6 text-lg leading-relaxed text-charcoal/80 md:text-xl">
           <p className="text-pretty">
-            <span className="text-gold">IGNIS</span> represents the spark of ambition, innovation, and growth —
+            <span className="text-gold">IGNIS</span> represents the spark of ambition, innovation, and growth
             qualities that lie at the heart of commerce. Just as a flame ignites transformation,
             commerce fuels economic progress by turning ideas into enterprises.
           </p>
           <p className="text-pretty text-charcoal/75">
             The event symbolizes the drive to take risks, analyze markets, and create value through
-            trade and entrepreneurship. In the world of business, success begins with a small spark —
-            an idea, a strategy, or a vision — and grows into something impactful.
+            trade and entrepreneurship. In the world of business, success begins with a small spark
+            an idea, a strategy, or a vision and grows into something impactful.
           </p>
           <p className="text-pretty font-display italic text-2xl md:text-3xl text-gold">
             What will you ignite in the world of commerce?
@@ -193,7 +193,7 @@ function Promo() {
   return (
     <section className="container-editorial pb-32 md:pb-48">
       <div className="mb-8 flex items-end justify-between">
-        <span className="text-xs uppercase tracking-[0.3em] text-gold">02 — The Film</span>
+        <span className="text-xs uppercase tracking-[0.3em] text-gold">02 The Film</span>
         <span className="text-xs uppercase tracking-[0.25em] text-muted-foreground">01:24</span>
       </div>
 

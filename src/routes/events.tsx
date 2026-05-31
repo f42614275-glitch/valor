@@ -12,16 +12,16 @@ import lawImg from "@/assets/law.jpeg";
 export const Route = createFileRoute("/events")({
   head: () => ({
     meta: [
-      { title: "Events — VALOR·IGNIS" },
+      { title: "Events | VALOR·IGNIS" },
       {
         name: "description",
         content:
-          "Seven curated events at VALOR·IGNIS — markets, courtrooms, campaigns, films and more.",
+          "Seven curated events at VALOR·IGNIS. Markets, courtrooms, campaigns, films and more.",
       },
-      { property: "og:title", content: "Events — VALOR·IGNIS" },
+      { property: "og:title", content: "Events | VALOR·IGNIS" },
       {
         property: "og:description",
-        content: "Seven curated events: Mock Stock, Shadow Seer, Light of Film, Law & Order and more.",
+        content: "Seven curated events: Capital Chaos, Shadow Seer, Light of Film, Law & Order and more.",
       },
     ],
   }),
@@ -41,10 +41,10 @@ const events: EventItem[] = [
    {
     n: "01",
     name: "Legacy of Ignis",
-    desc: "The ultimate Best Manager challenge — five rounds, one legacy.",
+    desc: "The ultimate Best Manager challenge with five rounds and one legacy.",
      img: shadowSeerImg,
     full:
-      "To beat the best, you must become the best. In the BEST MANAGER event, every round — Marketing Mayhem, Brand Battle, Red Alert, Rapid Reaction, and Press Storm — will test your limits, push your thinking, and challenge your leadership. There's no room for hesitation, no space for doubt. Sharp strategy, bold decisions, and unshakable confidence. This is where ordinary ends and excellence begins. Step in, rise to the challenge, and prove you have what it takes. Because in the end, only those who dare to ignite will leave behind a true Legacy of Ignis.",
+      "To beat the best, you must become the best. In the BEST MANAGER event, every round, including Marketing Mayhem, Brand Battle, Red Alert, Rapid Reaction, and Press Storm, will test your limits, push your thinking, and challenge your leadership. There's no room for hesitation, no space for doubt. Sharp strategy, bold decisions, and unshakable confidence. This is where ordinary ends and excellence begins. Step in, rise to the challenge, and prove you have what it takes. Because in the end, only those who dare to ignite will leave behind a true Legacy of Ignis.",
     rules: [
       "This is an Individual event.",
       "Devices are not allowed.",
@@ -56,7 +56,7 @@ const events: EventItem[] = [
     name: "Shadow Seer",
     desc: "A strategic talent management challenge driven by instinct and judgement.",
     full:
-      "In a world full of talent, only a few can recognize true potential early. Shadow Seer is a strategic event that simulates real-world talent management. This isn't just about watching from the sidelines; it's about becoming a master strategist who can spot a diamond in the rough before anyone else. Step into the shoes of an elite Talent Manager — the strategist behind the success of the world's biggest companies, sports teams, and startups. If you trust your instincts and think strategically, this is your stage. Because in the end, it's not luck — it's your judgement that defines your win.",
+      "In a world full of talent, only a few can recognize true potential early. Shadow Seer is a strategic event that simulates real-world talent management. This isn't just about watching from the sidelines; it's about becoming a master strategist who can spot a diamond in the rough before anyone else. Step into the shoes of an elite Talent Manager, the strategist behind the success of the world's biggest companies, sports teams, and startups. If you trust your instincts and think strategically, this is your stage. Because in the end, it's not luck. It is your judgement that defines your win.",
     rules: [
       "A team should consist of up to 2 members.",
       "Devices are allowed.",
@@ -81,7 +81,7 @@ const events: EventItem[] = [
     desc: "A courtroom-style battle of arguments, logic, and legal strategy.",
     img: lawImg,
     full:
-      "Law and Order is a high-pressure legal showdown where sharp minds and strong arguments take the spotlight. Participants step into the role of lawyers, taking on real-world style cases and going head-to-head in intense courtroom battles. As the event moves forward, the rounds get tougher — courtroom trials, legal twists, and unexpected challenges that force participants to adapt, argue, and outthink their opponents. Every move matters, whether it's countering arguments or making the right call at the right time. In the end, the teams that stay consistent, think smart, and perform when it counts will rise.",
+      "Law and Order is a high-pressure legal showdown where sharp minds and strong arguments take the spotlight. Participants step into the role of lawyers, taking on real-world style cases and going head-to-head in intense courtroom battles. As the event moves forward, the rounds get tougher with courtroom trials, legal twists, and unexpected challenges that force participants to adapt, argue, and outthink their opponents. Every move matters, whether it's countering arguments or making the right call at the right time. In the end, the teams that stay consistent, think smart, and perform when it counts will rise.",
     rules: [
       "A team can have up to 2 members.",
       "Devices are allowed.",
@@ -118,7 +118,7 @@ const events: EventItem[] = [
     name: "Light of Film",
     desc: "A cinematic storytelling event where creativity and filmmaking collide.",
     full:
-      "Across two thrilling days, the Film Fest celebrates creativity, storytelling, and cinematic skill. In Round 1, teams craft and submit a 3–5 minute short film based on a selected theme. Day 1 brings evaluation, where standout entries are shortlisted for screening. On Day 2, finalists face a high-pressure one-shot film challenge with a surprise theme. Armed with their own devices, they race against time. Only the most powerful storytellers will succeed.",
+      "Across two thrilling days, the Film Fest celebrates creativity, storytelling, and cinematic skill. In Round 1, teams craft and submit a 3 to 5 minute short film based on a selected theme. Day 1 brings evaluation, where standout entries are shortlisted for screening. On Day 2, finalists face a high-pressure one-shot film challenge with a surprise theme. Armed with their own devices, they race against time. Only the most powerful storytellers will succeed.",
     rules: [
       "A team can have a maximum of 4 members.",
       "Devices are allowed on Day 2 of the event.",
@@ -153,7 +153,7 @@ function EventsPage() {
           <RevealText delay={0.15} className="block italic font-normal">Events.</RevealText>
         </h1>
         <p className="mt-10 max-w-xl text-base text-charcoal/75 md:text-lg">
-          Seven curated experiences — each a different stage for ambition, instinct and craft. Pick
+          Seven curated experiences each a different stage for ambition, instinct and craft. Pick
           the one that fits the kind of leader you intend to become.
         </p>
       </section>
@@ -292,7 +292,7 @@ function EventModal({ event, onClose }: { event: EventItem; onClose: () => void 
           </div>
 
           <a
-            href="https://www.amazon.com"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSclp_X29sbpZC420kW4p21ylyYkiFlXmxNXqekD9q_PsZbFxg/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative mt-10 inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-gold px-8 py-4 text-sm font-semibold uppercase tracking-[0.3em] text-background transition-transform duration-300 hover:scale-[1.01] md:w-auto"

@@ -282,19 +282,19 @@ const Route$4 = createRootRouteWithContext()({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "VALOR·IGNIS — An interschool business & leadership fest" },
+      { title: "VALOR·IGNIS | An interschool business and leadership fest" },
       {
         name: "description",
         content: "VALOR·IGNIS is an interschool business and leadership fest by the Class 12 students of NHVPS. Cinematic, immersive, and built by students."
       },
-      { property: "og:title", content: "VALOR·IGNIS — An interschool business & leadership fest" },
+      { property: "og:title", content: "VALOR·IGNIS | An interschool business and leadership fest" },
       {
         property: "og:description",
         content: "An interschool business and leadership fest by the Class 12 students of NHVPS."
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "VALOR·IGNIS — An interschool business & leadership fest" },
+      { name: "twitter:title", content: "VALOR·IGNIS | An interschool business and leadership fest" },
       { name: "description", content: "A premium, modern React website for the VALOR IGNIS school fest, offering a cinematic and immersive motion-design experience." },
       { property: "og:description", content: "A premium, modern React website for the VALOR IGNIS school fest, offering a cinematic and immersive motion-design experience." },
       { name: "twitter:description", content: "A premium, modern React website for the VALOR IGNIS school fest, offering a cinematic and immersive motion-design experience." },
@@ -333,17 +333,17 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(MusicToggle, {})
   ] }) });
 }
-const $$splitComponentImporter$3 = () => import("./team-97D_OO2Q.mjs");
+const $$splitComponentImporter$3 = () => import("./team-CXT7Z0Hk.mjs");
 const Route$3 = createFileRoute("/team")({
   head: () => ({
     meta: [{
-      title: "Team — VALOR·IGNIS"
+      title: "Team | VALOR·IGNIS"
     }, {
       name: "description",
-      content: "Meet the team behind VALOR·IGNIS — event heads and the organizing committee turning ideas into experiences."
+      content: "Meet the team behind VALOR·IGNIS. Event heads and the organizing committee turn ideas into experiences."
     }, {
       property: "og:title",
-      content: "Meet the Team — VALOR·IGNIS"
+      content: "Meet the Team | VALOR·IGNIS"
     }, {
       property: "og:description",
       content: "The collective of students behind the VALOR·IGNIS fest."
@@ -351,35 +351,35 @@ const Route$3 = createFileRoute("/team")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./events-BnA8HRDn.mjs");
+const $$splitComponentImporter$2 = () => import("./events-atYAxdog.mjs");
 const Route$2 = createFileRoute("/events")({
   head: () => ({
     meta: [{
-      title: "Events — VALOR·IGNIS"
+      title: "Events | VALOR·IGNIS"
     }, {
       name: "description",
-      content: "Seven curated events at VALOR·IGNIS — markets, courtrooms, campaigns, films and more."
+      content: "Seven curated events at VALOR·IGNIS. Markets, courtrooms, campaigns, films and more."
     }, {
       property: "og:title",
-      content: "Events — VALOR·IGNIS"
+      content: "Events | VALOR·IGNIS"
     }, {
       property: "og:description",
-      content: "Seven curated events: Mock Stock, Shadow Seer, Light of Film, Law & Order and more."
+      content: "Seven curated events: Capital Chaos, Shadow Seer, Light of Film, Law & Order and more."
     }]
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./contact-DGAS8Oyb.mjs");
+const $$splitComponentImporter$1 = () => import("./contact-r03Y0Ybi.mjs");
 const Route$1 = createFileRoute("/contact")({
   head: () => ({
     meta: [{
-      title: "Contact — VALOR·IGNIS"
+      title: "Contact | VALOR·IGNIS"
     }, {
       name: "description",
-      content: "Get in touch with the VALOR·IGNIS team — reach our organizing committee and social media manager."
+      content: "Get in touch with the VALOR·IGNIS team. Reach our organizing committee and social media manager."
     }, {
       property: "og:title",
-      content: "Contact — VALOR·IGNIS"
+      content: "Contact | VALOR·IGNIS"
     }, {
       property: "og:description",
       content: "Reach the VALOR·IGNIS organizing committee and social media team."
@@ -387,11 +387,11 @@ const Route$1 = createFileRoute("/contact")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-CpV47YRX.mjs");
+const $$splitComponentImporter = () => import("./index-BBJaHH6g.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
-      title: "VALOR·IGNIS — An interschool business & leadership fest"
+      title: "VALOR·IGNIS | An interschool business & leadership fest"
     }, {
       name: "description",
       content: "An interschool business and leadership fest by the Class 12 students of NHVPS. Where strategy meets creativity."

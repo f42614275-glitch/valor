@@ -26,7 +26,7 @@ function ContactPage() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(RevealText, { className: "block text-gold", children: "Say" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(RevealText, { delay: 0.15, className: "block italic font-normal", children: "hello." })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-10 max-w-xl text-base text-charcoal/75 md:text-lg", children: "Questions, partnerships, or registrations — our organizing committee are a call or message away." })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-10 max-w-xl text-base text-charcoal/75 md:text-lg", children: "Questions, partnerships, or registrations. Our organizing committee are a call or message away." })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "container-editorial pb-20", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-4 text-xs uppercase tracking-[0.3em] text-gold", children: [

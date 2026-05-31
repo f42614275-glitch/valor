@@ -80,20 +80,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "VALOR·IGNIS — An interschool business & leadership fest" },
+      { title: "VALOR·IGNIS | An interschool business and leadership fest" },
       {
         name: "description",
         content:
           "VALOR·IGNIS is an interschool business and leadership fest by the Class 12 students of NHVPS. Cinematic, immersive, and built by students.",
       },
-      { property: "og:title", content: "VALOR·IGNIS — An interschool business & leadership fest" },
+      { property: "og:title", content: "VALOR·IGNIS | An interschool business and leadership fest" },
       {
         property: "og:description",
         content: "An interschool business and leadership fest by the Class 12 students of NHVPS.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "VALOR·IGNIS — An interschool business & leadership fest" },
+      { name: "twitter:title", content: "VALOR·IGNIS | An interschool business and leadership fest" },
       { name: "description", content: "A premium, modern React website for the VALOR IGNIS school fest, offering a cinematic and immersive motion-design experience." },
       { property: "og:description", content: "A premium, modern React website for the VALOR IGNIS school fest, offering a cinematic and immersive motion-design experience." },
       { name: "twitter:description", content: "A premium, modern React website for the VALOR IGNIS school fest, offering a cinematic and immersive motion-design experience." },
