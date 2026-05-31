@@ -24,7 +24,7 @@ export const Route = createFileRoute("/contact")({
 });
 
 const phones = [
-  { name: "Vineeth Shreekanth", number: "+91 77950 38400", raw: "+917795038400" },
+  { name: "Vineet Srikanth", number: "+91 77950 38400", raw: "+917795038400" },
   { name: "Thrupthi R", number: "+91 86184 65279", raw: "+918618465279" },
 ];
 

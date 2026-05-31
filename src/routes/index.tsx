@@ -93,7 +93,7 @@ function Hero() {
             transition={{ duration: 1, delay: 0.9 }}
             className="md:col-span-5 max-w-md text-base text-charcoal/75 md:text-lg text-pretty"
           >
-            An interschool business and leadership fest, a stage for strategy, instinct,
+            An interschool business and leadership fest a stage for strategy, instinct,
             and the quiet fire of ambition.
           </motion.p>
 
