@@ -11,6 +11,7 @@ import shadowseerrealImg from "@/assets/shadowseer.jpeg";
 import lawImg from "@/assets/law.jpeg";
 import LightOfFlimImg from "@/assets/LightOfFlim.jpeg";
 import HRPRImg from "@/assets/HRPR.jpeg";
+import PowerPlayImg from "@/assets/powerplay.jpeg";
 
 export const Route = createFileRoute("/events")({
   head: () => ({
@@ -71,6 +72,7 @@ const events: EventItem[] = [
     n: "03",
     name: "Power Play",
     desc: "A high-energy product launch competition - where innovation meets strategy.",
+    img: PowerPlayImg,
     full:
       "Every great breakthrough begins with a bold move and the courage to take control. In a world driven by innovation and strategy - only the strongest ideas rise above the rest. Power Play is a high-energy product launch event where ideas are not just presented, but tested, challenged, and transformed. It demands more than creativity - requiring adaptability, sharp strategy, and confidence under pressure. Lead the game, because here ideas dominate.",
     rules: [

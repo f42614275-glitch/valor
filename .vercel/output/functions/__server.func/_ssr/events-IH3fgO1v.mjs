@@ -11,6 +11,7 @@ const shadowseerrealImg = "/assets/shadowseer-ikjPj3cV.jpeg";
 const lawImg = "/assets/law-BP0uyAM_.jpeg";
 const LightOfFlimImg = "/assets/LightOfFlim-GlJK7xcT.jpeg";
 const HRPRImg = "/assets/HRPR-D2RuQcpv.jpeg";
+const PowerPlayImg = "/assets/powerplay-bWs88hRg.jpeg";
 const events = [{
   n: "01",
   name: "Legacy of Ignis",
@@ -29,6 +30,7 @@ const events = [{
   n: "03",
   name: "Power Play",
   desc: "A high-energy product launch competition - where innovation meets strategy.",
+  img: PowerPlayImg,
   full: "Every great breakthrough begins with a bold move and the courage to take control. In a world driven by innovation and strategy - only the strongest ideas rise above the rest. Power Play is a high-energy product launch event where ideas are not just presented, but tested, challenged, and transformed. It demands more than creativity - requiring adaptability, sharp strategy, and confidence under pressure. Lead the game, because here ideas dominate.",
   rules: ["A team can have up to 3 participants.", "Devices are allowed on both days of the event.", "AI is strictly prohibited."]
 }, {
