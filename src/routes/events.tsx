@@ -7,7 +7,10 @@ import { RevealText } from "@/components/RevealText";
 import { Footer } from "@/components/Footer";
 import mockStockImg from "@/assets/mock-stock.jpeg";
 import shadowSeerImg from "@/assets/shadow-seer.jpeg";
+import shadowseerrealImg from "@/assets/shadowseer.jpeg";
 import lawImg from "@/assets/law.jpeg";
+import LightOfFlimImg from "@/assets/LightOfFlim.jpeg";
+import HRPRImg from "@/assets/HRPR.jpeg";
 
 export const Route = createFileRoute("/events")({
   head: () => ({
@@ -41,7 +44,7 @@ const events: EventItem[] = [
    {
     n: "01",
     name: "Legacy of Ignis",
-    desc: "The ultimate Best Manager challenge with five rounds and one legacy.",
+    desc: "The ultimate Best Manager challenge - five rounds, one legacy.",
     img: shadowSeerImg,
     full:
       "To beat the best, you must become the best. In the BEST MANAGER event, every round, including Marketing Mayhem, Brand Battle, Red Alert, Rapid Reaction, and Press Storm, will test your limits, push your thinking, and challenge your leadership. There's no room for hesitation, no space for doubt. Sharp strategy, bold decisions, and unshakable confidence. This is where ordinary ends and excellence begins. Step in, rise to the challenge, and prove you have what it takes. Because in the end, only those who dare to ignite will leave behind a true Legacy of Ignis.",
@@ -55,7 +58,7 @@ const events: EventItem[] = [
     n: "02",
     name: "Shadow Seer",
     desc: "A strategic talent management challenge driven by instinct and judgement.",
-    img: "/shadowseer.jpeg",
+    img: shadowseerrealImg,
     full:
       "In a world full of talent, only a few can recognize true potential early. Shadow Seer is a strategic event that simulates real-world talent management. This isn't just about watching from the sidelines; it's about becoming a master strategist who can spot a diamond in the rough before anyone else. Step into the shoes of an elite Talent Manager, the strategist behind the success of the world's biggest companies, sports teams, and startups. If you trust your instincts and think strategically, this is your stage. Because in the end, it's not luck. It is your judgement that defines your win.",
     rules: [
@@ -67,9 +70,9 @@ const events: EventItem[] = [
   {
     n: "03",
     name: "Power Play",
-    desc: "A high-energy product launch competition where innovation meets strategy.",
+    desc: "A high-energy product launch competition - where innovation meets strategy.",
     full:
-      "Every great breakthrough begins with a bold move and the courage to take control. In a world driven by innovation and strategy, only the strongest ideas rise above the rest. Power Play is a high-energy product launch event where ideas are not just presented, but tested, challenged, and transformed. It demands more than creativity, requiring adaptability, sharp strategy, and confidence under pressure. Lead the game, because here ideas dominate.",
+      "Every great breakthrough begins with a bold move and the courage to take control. In a world driven by innovation and strategy - only the strongest ideas rise above the rest. Power Play is a high-energy product launch event where ideas are not just presented, but tested, challenged, and transformed. It demands more than creativity - requiring adaptability, sharp strategy, and confidence under pressure. Lead the game, because here ideas dominate.",
     rules: [
       "A team can have up to 3 participants.",
       "Devices are allowed on both days of the event.",
@@ -79,10 +82,10 @@ const events: EventItem[] = [
   {
     n: "04",
     name: "Law & Order",
-    desc: "A courtroom-style battle of arguments, logic, and legal strategy.",
+    desc: "A courtroom-style battle - arguments, logic, and legal strategy.",
     img: lawImg,
     full:
-      "Law and Order is a high-pressure legal showdown where sharp minds and strong arguments take the spotlight. Participants step into the role of lawyers, taking on real-world style cases and going head-to-head in intense courtroom battles. As the event moves forward, the rounds get tougher with courtroom trials, legal twists, and unexpected challenges that force participants to adapt, argue, and outthink their opponents. Every move matters, whether it's countering arguments or making the right call at the right time. In the end, the teams that stay consistent, think smart, and perform when it counts will rise.",
+      "Law and Order is a high-pressure legal showdown where sharp minds and strong arguments take the spotlight. Participants step into the role of lawyers - taking on real-world style cases and going head-to-head in intense courtroom battles. As the event moves forward, the rounds get tougher - with courtroom trials, legal twists, and unexpected challenges that force participants to adapt, argue, and outthink their opponents. Every move matters - whether it's countering arguments or making the right call at the right time. In the end, the teams that stay consistent, think smart, and perform when it counts will rise.",
     rules: [
       "A team can have up to 2 members.",
       "Devices are allowed.",
@@ -92,9 +95,10 @@ const events: EventItem[] = [
   {
     n: "05",
     name: "Illusion of Influence",
-    desc: "A communication-focused challenge across HR, PR, and Mad Ads.",
+    desc: "A communication-focused challenge - HR, PR, and Mad Ads.",
+    img: HRPRImg,
     full:
-      "The greatest enemy of communication is the illusion of it. In a world where perception defines power, this event unfolds across three intense rounds. The first, HR, challenges participants to resolve complex workplace conflicts through sharp judgment and strategic thinking. The second, PR, throws them into high-stakes crisis management where every decision shapes public perception. The final, Mad Ads, demands bold creativity to craft compelling campaigns from the unexpected. Only those who master communication, creativity, and pressure will rise above the illusion and seize true influence.",
+      "The greatest enemy of communication is the illusion of it. In a world where perception defines power - this event unfolds across three intense rounds. The first, HR - challenges participants to resolve complex workplace conflicts through sharp judgment and strategic thinking. The second, PR - throws them into high-stakes crisis management where every decision shapes public perception. The final, Mad Ads - demands bold creativity to craft compelling campaigns from the unexpected. Only those who master communication, creativity, and pressure will rise above the illusion and seize true influence.",
     rules: [
       "A team can only have 2 participants.",
       "Devices are allowed only on day 2 of the event.",
@@ -104,10 +108,10 @@ const events: EventItem[] = [
   {
   n: "06",
     name: "Capital Chaos",
-    desc: "A fast-paced stock market simulation where every decision can make or break you.",
+    desc: "A fast-paced stock market simulation - every decision can make or break you.",
     img: mockStockImg,
     full:
-      "Capital Chaos is not just a game; it's a battlefield of markets where every decision can make or break you. Step into the role of an investor and face the thrill of real-time trading, where prices shift without warning and news can change everything in an instant. From intense rounds that test your speed, awareness, and instincts, to high-pressure scenarios of market crashes and risky gambles, the stakes only rise. There are no second chances. In the end, only the sharpest minds and strongest strategies will survive the chaos and claim victory.",
+      "Capital Chaos is not just a game - it's a battlefield of markets where every decision can make or break you. Step into the role of an investor and face the thrill of real-time trading - where prices shift without warning and news can change everything in an instant. From intense rounds that test your speed, awareness, and instincts - to high-pressure scenarios of market crashes and risky gambles, the stakes only rise. There are no second chances. In the end, only the sharpest minds and strongest strategies will survive the chaos and claim victory.",
     rules: [
       "A team can consist of up to 2 members.",
       "Devices are allowed.",
@@ -117,7 +121,8 @@ const events: EventItem[] = [
  {
     n: "07",
     name: "Light of Film",
-    desc: "A cinematic storytelling event where creativity and filmmaking collide.",
+    desc: "A cinematic storytelling event - creativity and filmmaking collide.",
+    img: LightOfFlimImg,
     full:
       "Across two thrilling days, the Film Fest celebrates creativity, storytelling, and cinematic skill. In Round 1, teams craft and submit a 3 to 5 minute short film based on a selected theme. Day 1 brings evaluation, where standout entries are shortlisted for screening. On Day 2, finalists face a high-pressure one-shot film challenge with a surprise theme. Armed with their own devices, they race against time. Only the most powerful storytellers will succeed.",
     rules: [

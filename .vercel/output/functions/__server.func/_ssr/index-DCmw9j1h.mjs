@@ -4,7 +4,6 @@ import { u as useScroll, a as useTransform, m as motion } from "../_libs/framer-
 import { a as Play } from "../_libs/lucide-react.mjs";
 import "../_libs/motion-dom.mjs";
 import "../_libs/motion-utils.mjs";
-const valorLogo = "/assets/valor-B-Uw3swe.jpeg";
 const nhvpsLogo = "/assets/nhvps-BlCerjWP.jpeg";
 function Home() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "gradient-warm", children: [
@@ -12,8 +11,18 @@ function Home() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Marquee, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Manifesto, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Promo, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(RegistrationCTA, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {})
   ] });
+}
+function RegistrationCTA() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "container-editorial pb-32", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "rounded-[2rem] border border-gold/20 bg-transparent p-10 md:p-14", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.35em] text-gold", children: "Register Your Team" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl leading-tight tracking-tight text-charcoal md:text-5xl", children: "Secure your place at VALOR·IGNIS." })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://docs.google.com/forms/d/e/1FAIpQLSclp_X29sbpZC420kW4p21ylyYkiFlXmxNXqekD9q_PsZbFxg/viewform", target: "_blank", rel: "noopener noreferrer", className: "group inline-flex whitespace-nowrap items-center justify-center rounded-full bg-gold px-8 py-4 text-sm font-semibold uppercase tracking-[0.3em] text-background transition duration-300 hover:scale-[1.02] hover:shadow-[0_24px_60px_-24px_oklch(0.55_0.22_38/0.6)]", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "relative", children: "Register Now →" }) })
+  ] }) }) });
 }
 function Hero() {
   const ref = reactExports.useRef(null);
@@ -41,9 +50,9 @@ function Hero() {
           duration: 1,
           delay: 0.3
         }, className: "md:col-span-7 flex items-center gap-5", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: nhvpsLogo, alt: "National Hill View Public School", className: "h-14 w-14 rounded-full bg-white object-contain p-1 md:h-16 md:w-16" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: nhvpsLogo, alt: "National Hill View Public School", className: "h-20 w-20 rounded-full bg-white object-contain p-1 md:h-24 md:w-24" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "h-px w-8 bg-gold/60" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: valorLogo, alt: "Valor Ignis", className: "h-16 w-16 rounded-full object-cover md:h-20 md:w-20 ring-1 ring-gold/40", style: {
+          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: "/audio/valor_logo.jpeg", alt: "Valor Ignis", className: "h-24 w-24 rounded-full object-cover md:h-28 md:w-28 ring-1 ring-gold/40", style: {
             objectPosition: "center",
             transform: "scale(1.08)"
           } })
@@ -58,8 +67,8 @@ function Hero() {
           duration: 1,
           delay: 0.45
         }, className: "md:col-span-4 md:col-start-9 text-xs uppercase tracking-[0.3em] text-charcoal/60", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "block text-charcoal/40", children: "" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "mt-1 block", children: "" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "block text-charcoal/40" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "mt-1 block" })
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "mt-12 font-display text-[clamp(4rem,16vw,20rem)] leading-[0.82] tracking-[-0.045em]", children: [
@@ -79,7 +88,7 @@ function Hero() {
         }, transition: {
           duration: 1,
           delay: 0.9
-        }, className: "md:col-span-5 max-w-md text-base text-charcoal/75 md:text-lg text-pretty", children: "An interschool business and leadership fest, a stage for strategy, instinct, and the quiet fire of ambition." }),
+        }, className: "md:col-span-5 max-w-md text-base text-charcoal/75 md:text-lg text-pretty", children: "An interschool business and leadership fest - a stage for strategy, instinct, and the quiet fire of ambition." }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.div, { initial: {
           opacity: 0
         }, animate: {
@@ -87,7 +96,7 @@ function Hero() {
         }, transition: {
           duration: 1,
           delay: 1
-        }, className: "md:col-span-3 md:col-start-10 flex flex-col gap-1 text-xs uppercase tracking-[0.25em] text-charcoal/60", children: [
+        }, className: "md:col-span-3 md:col-start-10 flex flex-col gap-4 text-xs uppercase tracking-[0.25em] text-charcoal/60", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-charcoal/40", children: "Two Days · Seven Events" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display text-2xl normal-case tracking-tight text-charcoal", children: "02 · 03 July" })
         ] })
@@ -125,9 +134,9 @@ function Manifesto() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-7 md:col-start-6 space-y-6 text-lg leading-relaxed text-charcoal/80 md:text-xl", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-pretty", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gold", children: "IGNIS" }),
-        " represents the spark of ambition, innovation, and growth qualities that lie at the heart of commerce. Just as a flame ignites transformation, commerce fuels economic progress by turning ideas into enterprises."
+        " represents the spark of ambition, innovation, and growth - qualities that lie at the heart of commerce. Just as a flame ignites transformation - commerce fuels economic progress by turning ideas into enterprises."
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-pretty text-charcoal/75", children: "The event symbolizes the drive to take risks, analyze markets, and create value through trade and entrepreneurship. In the world of business, success begins with a small spark an idea, a strategy, or a vision and grows into something impactful." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-pretty text-charcoal/75", children: "The event symbolizes the drive to take risks, analyze markets, and create value through trade and entrepreneurship. In the world of business, success begins with a small spark - an idea, a strategy, or a vision - and grows into something impactful." }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-pretty font-display italic text-2xl md:text-3xl text-gold", children: "What will you ignite in the world of commerce?" })
     ] })
   ] }) });

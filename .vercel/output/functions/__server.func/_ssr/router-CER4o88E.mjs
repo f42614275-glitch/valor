@@ -19,7 +19,7 @@ import "stream";
 import "../_libs/isbot.mjs";
 import "../_libs/motion-dom.mjs";
 import "../_libs/motion-utils.mjs";
-const appCss = "/assets/styles-DL0d5xFp.css";
+const appCss = "/assets/styles-DyS1eclK.css";
 function reportLovableError(error, context = {}) {
   if (typeof window === "undefined") return;
   window.__lovableEvents?.captureException?.(
@@ -333,7 +333,7 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(MusicToggle, {})
   ] }) });
 }
-const $$splitComponentImporter$3 = () => import("./team-CXT7Z0Hk.mjs");
+const $$splitComponentImporter$3 = () => import("./team-yYMOGZgN.mjs");
 const Route$3 = createFileRoute("/team")({
   head: () => ({
     meta: [{
@@ -351,7 +351,7 @@ const Route$3 = createFileRoute("/team")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./events-atYAxdog.mjs");
+const $$splitComponentImporter$2 = () => import("./events-COvo17jU.mjs");
 const Route$2 = createFileRoute("/events")({
   head: () => ({
     meta: [{
@@ -369,7 +369,7 @@ const Route$2 = createFileRoute("/events")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./contact-r03Y0Ybi.mjs");
+const $$splitComponentImporter$1 = () => import("./contact-DLJbUTw3.mjs");
 const Route$1 = createFileRoute("/contact")({
   head: () => ({
     meta: [{
@@ -387,7 +387,7 @@ const Route$1 = createFileRoute("/contact")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-BBJaHH6g.mjs");
+const $$splitComponentImporter = () => import("./index-DCmw9j1h.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{

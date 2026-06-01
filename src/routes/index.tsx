@@ -4,7 +4,8 @@ import { useRef, useState } from "react";
 import { Play } from "lucide-react";
 import { RevealText } from "@/components/RevealText";
 import { Footer } from "@/components/Footer";
-import valorLogo from "@/assets/valor.jpeg";
+// use public asset for the valor logo
+// src is set to the public path below instead of importing from src/assets
 import nhvpsLogo from "@/assets/nhvps.jpeg";
 
 export const Route = createFileRoute("/")({
@@ -87,7 +88,7 @@ function Hero() {
             />
             <span className="h-px w-8 bg-gold/60" />
             <img
-              src={valorLogo}
+              src="/audio/valor_logo.jpeg"
               alt="Valor Ignis"
               className="h-24 w-24 rounded-full object-cover md:h-28 md:w-28 ring-1 ring-gold/40"
               style={{ objectPosition: "center", transform: "scale(1.08)" }}
@@ -119,7 +120,7 @@ function Hero() {
             transition={{ duration: 1, delay: 0.9 }}
             className="md:col-span-5 max-w-md text-base text-charcoal/75 md:text-lg text-pretty"
           >
-            An interschool business and leadership fest a stage for strategy, instinct,
+            An interschool business and leadership fest - a stage for strategy, instinct,
             and the quiet fire of ambition.
           </motion.p>
 
@@ -179,14 +180,11 @@ function Manifesto() {
         </div>
         <div className="md:col-span-7 md:col-start-6 space-y-6 text-lg leading-relaxed text-charcoal/80 md:text-xl">
           <p className="text-pretty">
-            <span className="text-gold">IGNIS</span> represents the spark of ambition, innovation, and growth
-            qualities that lie at the heart of commerce. Just as a flame ignites transformation,
-            commerce fuels economic progress by turning ideas into enterprises.
+            <span className="text-gold">IGNIS</span> represents the spark of ambition, innovation, and growth - qualities that lie at the heart of commerce. Just as a flame ignites transformation - commerce fuels economic progress by turning ideas into enterprises.
           </p>
           <p className="text-pretty text-charcoal/75">
             The event symbolizes the drive to take risks, analyze markets, and create value through
-            trade and entrepreneurship. In the world of business, success begins with a small spark
-            an idea, a strategy, or a vision and grows into something impactful.
+            trade and entrepreneurship. In the world of business, success begins with a small spark - an idea, a strategy, or a vision - and grows into something impactful.
           </p>
           <p className="text-pretty font-display italic text-2xl md:text-3xl text-gold">
             What will you ignite in the world of commerce?
