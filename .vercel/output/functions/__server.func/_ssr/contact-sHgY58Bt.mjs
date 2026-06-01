@@ -15,7 +15,7 @@ const phones = [{
 }];
 const emails = [{
   name: "Ms. Jeevashree M R",
-  role: "Social Media Manager",
+  role: "Social Media Coordinator",
   email: "jevashree.mr@nhvps.com"
 }];
 function ContactPage() {

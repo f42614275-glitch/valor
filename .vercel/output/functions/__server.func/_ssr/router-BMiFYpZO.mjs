@@ -369,7 +369,7 @@ const Route$2 = createFileRoute("/events")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./contact-DLJbUTw3.mjs");
+const $$splitComponentImporter$1 = () => import("./contact-sHgY58Bt.mjs");
 const Route$1 = createFileRoute("/contact")({
   head: () => ({
     meta: [{
