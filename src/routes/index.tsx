@@ -232,7 +232,7 @@ function Promo() {
         <video
           ref={videoRef}
           src="/audio/file.mp4"
-          poster="/audio/poster.jpg"
+          poster="/audio/poster.png"
           controls={playing}
           playsInline
           preload="metadata"
