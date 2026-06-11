@@ -351,7 +351,7 @@ const Route$3 = createFileRoute("/team")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./events-IH3fgO1v.mjs");
+const $$splitComponentImporter$2 = () => import("./events-CG-l7Kn8.mjs");
 const Route$2 = createFileRoute("/events")({
   head: () => ({
     meta: [{
